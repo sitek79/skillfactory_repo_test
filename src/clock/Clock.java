@@ -5,6 +5,9 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class Clock {
+    Clock() {
+        System.out.println("Класс часов построен");
+    }
     public void printClock() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("EEEE, d MMMM yyyy");
         Calendar calendar = new GregorianCalendar(2017, Calendar.JANUARY , 25);
