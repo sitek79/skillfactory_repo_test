@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
         Recursion rec = new Recursion();
         rec.recursion();
-        Clock clk = new Clock();
+        Clock clk = new Clock("Класс часов построен");
         clk.printClock();
     }
 }

@@ -5,8 +5,8 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class Clock {
-    Clock() {
-        System.out.println("Класс часов построен");
+    public Clock(String str) {
+        System.out.println(str);
     }
     public void printClock() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("EEEE, d MMMM yyyy");
